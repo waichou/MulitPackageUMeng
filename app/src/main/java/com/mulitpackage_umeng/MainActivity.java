@@ -23,6 +23,10 @@ import com.umeng.analytics.AnalyticsConfig;
  * 定义渠道信息+ [ UMENG_APPKEY + UMENG_CHANNEL] + 打包编译方式
  * 参考：https://blog.csdn.net/dongbaoming/article/details/56666479
  *
+ * 腾讯乐固多渠道打包配置
+ * 参考：https://blog.csdn.net/u014769864/article/details/72627189
+ * 小结：多渠道打包仅针对项目主配置文件androidMifest.xml中application标签中定义<meta>来实现替换定义channel名字
+ * 乐固：可以对没有签名的apk进行签名；可以对已经签名的apk进行加固（注意：加固的时候，需要手动签名后，再去执行加固操作！！！！！！）
  */
 public class MainActivity extends AppCompatActivity {
 
