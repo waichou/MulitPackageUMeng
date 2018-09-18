@@ -19,7 +19,9 @@ import com.umeng.analytics.AnalyticsConfig;
  *
  * 获取渠道信息：
  * 参考：https://blog.csdn.net/woshishui5577/article/details/77320040
- *
+ *  
+ * 定义渠道信息+ [ UMENG_APPKEY + UMENG_CHANNEL] + 打包编译方式
+ * 参考：https://blog.csdn.net/dongbaoming/article/details/56666479
  *
  */
 public class MainActivity extends AppCompatActivity {
