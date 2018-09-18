@@ -26,7 +26,14 @@ import com.umeng.analytics.AnalyticsConfig;
  * 腾讯乐固多渠道打包配置
  * 参考：https://blog.csdn.net/u014769864/article/details/72627189
  * 小结：多渠道打包仅针对项目主配置文件androidMifest.xml中application标签中定义<meta>来实现替换定义channel名字
- * 乐固：可以对没有签名的apk进行签名；可以对已经签名的apk进行加固（注意：加固的时候，需要手动签名后，再去执行加固操作！！！！！！）
+        <定义结构> 
+        <meta-data
+            android:name="zw"
+            android:value="hello android!"> //注意这个值
+        </meta-data>
+ * 乐固：可以对没有签名的apk进行签名；可以对已经签名的apk进行加固（注意：加固的时候，需要手动签名后，再去执行加固操作！）
+ *       
+ * 乐固与友盟的打包方案都是一致的：都是在改写Channel的渠道名称对应的值！
  */
 public class MainActivity extends AppCompatActivity {
 
