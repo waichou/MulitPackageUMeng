@@ -33,7 +33,7 @@ import com.umeng.analytics.AnalyticsConfig;
         </meta-data>
  * 乐固：可以对没有签名的apk进行签名；可以对已经签名的apk进行加固（注意：加固的时候，需要手动签名后，再去执行加固操作！）
  *       
- * 乐固与友盟的打包方案都是一致的：都是在改写Channel的渠道名称对应的值！
+ * 乐固与[友盟，腾讯]的打包方案都是一致的：都是在改写Channel的渠道名称对应的值！
  */
 public class MainActivity extends AppCompatActivity {
 
